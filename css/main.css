@@ -110,3 +110,13 @@ ul li:hover{
 .contact img :hover{
   transform: scale (1.2);
 }
+
+
+/*.main-nav li a : hover, .active{
+background: red;
+padding: 10px 4px;
+
+}
+.main-menu li a{
+transition:all .5s;
+}*/
