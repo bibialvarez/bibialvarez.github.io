@@ -75,12 +75,21 @@ a{
 .turquesa{
   color: #18ba9a;
 }
+.pd20{
+  padding: 20px;
+}
 .pd40{
   padding: 40px;
 }
 .radius{
   border-radius: 50%;
   margin: 0 auto;
+}
+.radius20{
+  width: 200px;
+  height: 150px;
+  border-radius: 20%;
+  border: 2px solid rgba(230,126,34,0.9);
 }
 .progress{
   height: 20px;
