@@ -1,122 +1,122 @@
+*{
+  outline: 1px solid red;
+}
 html,body{
   margin: 0;
   padding: 0;
-  font-size: 23px;
-  font-family: "Oswald",Arial, Sans-serif;
-  color: purple;
- }
-/**{
-  outline: 1px solid red;
-}*/
-.container{
- width: 960px;
- margin: 0 auto;
+  font-size: 15px;
+  font-family: Verdana;
+  padding-top: 60px;
 }
-.head{
-  background: url("../images/backgroundd.jpg") center top;
-  background-size:cover;
-  background-position: center;
-  height: 530px;
+li{
+  list-style-type:none;
 }
-.menu{
-  height: 88px;
-}
-div ul{
-  position: fixed;
-  right: 37.75%;
-  padding: 0;
-  margin: 0 auto;
-}
-div li {
-  list-style-type: none;
-  float: left;
+a{
   text-decoration: none;
-  padding: 30px;
-  text-align: center;
+  color: white;
 }
-.header{
-  height: 442px;
-  width: 70%;
-  margin: 0 auto;
-  position: relative;
+.bg-orange,.top{
+  background: rgba(230,126,34,0.9);
 }
-.header img{
-  width: 20%;
-  height: 40%;
-  border-radius: 50%;
-  margin-left: 244px;
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #000 !important;
+  background-color: white;
 }
-h3{
-  text-align:center;
+.navbar-inverse .navbar-nav > li > a {
+  padding: 10px 15px;
+}
+.navbar-inverse .navbar-nav > li { 
+  margin-top: 10px;
+}
+.btn-default:hover,.redes i:hover{
+  background:#e74c3c;
+}
+.text-white{
+  color: white;
+}
+.text-black{
+  color: black;
+}
+.text-bold{
+  font-weight: bold;
   font-size: 40px;
 }
-h1 {
-  margin: -4px 0;
-  text-align:center;
-  color: white;
-  font-size: 90px;
-  font-family: 'Montez', cursive;
-  text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F;
-  }
-h2 {
-  color: white;
-  text-shadow: black 0.1em 0.1em 0.2em;
-  text-align: center;
- }
-a {
-  text-decoration: none;
-  color: white;
-  text-shadow: black 0.1em 0.1em 0.2em;
-  }
-ul li:hover{
-    background: #641aff;
-  }
-.about{
-    background-image: url("../images/flor3.jpg") ;
+.turquesa{
+  color: #18ba9a;
 }
-.about img {
-  border-radius: 50%;
-  border: 3px solid purple;
-  margin: 0 100px;
-  vertical-align: bottom;}
-.about p {
-  width: 13%;
+.video-test{
+  height:50%;
+  width:100%;
+  z-index:-1;  
+} 
+.hero.intro{
+  z-index: 2;
+}
+.abc-small{
+  font-size: 10px;
+  background: #233140;
+}
+.redes i{
+  font-size: 20px;
+  padding: 14px;
+}
+.redes div{
   display: inline-block;
-  position: absolute;
-  margin-top: 125px;
+  border-radius: 50%;
+  border: 1px solid white;
+  height: 50px;
+  width: 50px;
+}
+.footer .row{
+  padding:20px 0;
+}
+.turquesa{
+  color: #18ba9a;
+}
+.pd40{
+  padding: 40px;
+}
+.radius{
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.progress{
+  height: 20px;
+  margin-top: 3px;
+}
+.skill-icon{
+    display: inline-block;
+    float: left;
+}
+.text-red{
+  color: rgba(230,126,34,0.9);
   text-align: center;
 }
-.favorites img {
-  width: 200px;
-  height: 200px;
-  padding: 30px;
-  border: 3px solid purple;
-  border-radius: 30%;
-  opacity: 0.7;
-  margin:0 24px;
-  }
-.contact{
-  height: 300px;
-    background-image: url("../images/flor3.jpg") ;
- }
-.iconos{
-  padding: 0 30px;
- }
-.contact img{
-  width: 100px;
-  height: 100px;
-  padding: 60px;
+.text-green{
+  color: rgba(26,188,156,0.9);
+  text-align: center;
 }
-.contact img :hover{
-  transform: scale (1.2);
+.text-blue{
+  color: rgba(52,152,219,0.9);
+  text-align: center;
 }
+/*    <!--$(document).ready(init);
+      function init()
+      {
+        //inicio de aplicacion
+        $(".main-nav li a").css('color','#ff0000');
+        $(".main-nav li a").click(selectMenu);
+      }
+      function selectMenu()
+      {
+        $("main-nav a").removeClass('active');
+        $(this).addClass('active');
+        TweenMax.to(selector,tiempo,propiedades,aceleracion);
+        TweenMax .to(".main-nav li a",1,{scale:1,rotation:0,ease:Elastic.easeOut});
+        TweenMax .to(this,2,{scale:1.5,rotation:45,ease:Back.easeOut});
 
-
-/*.main-nav li a : hover, .active{
-background: red;
-padding: 10px 4px;
-
-}
-.main-menu li a{
-transition:all .5s;
-}*/
+      }
+       <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>-->*/

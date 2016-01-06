@@ -2,8 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Freelancer Super Star Theme</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Calligraffitti|Montez' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css" media="screen" title="no title">
     <title>Bibi Alvarez</title>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -13,74 +18,197 @@
 
         ga('create', 'UA-71320401-1', 'auto');
         ga('send', 'pageview');
-
     </script>
   </head>
   <body>
-    <div class="head">
-      <div class="container">
-        <div class="menu">
-          <ul>
-            <li><a href=""><strong>ABOUT</strong></a></li>
-            <li><a href=""><strong>FAVORITE</strong></a></li>
-            <li><a href=""><strong>CONTACT</strong></a></li>
-          </ul>
+    <header>
+      <nav class="navbar  navbar-inverse navbar-fixed-top top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"> ß®îÐ¥£tT</a>
+          </div><!--fin Nav-Header-->  
+          <div class="collapse navbar-collapse menu" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li  class="active"><a href="index.html">Portafolio</a></li>
+              <li><a href="about.html">Sobre Mí</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="#contact">Contacto</a></li>
+            </ul>
+          </div> <!--fin Navbar-Collapse-->
         </div>
-        <div class="header">
-          <img src="images/logook.jpg" alt="logo" />
-          <h1>Bibi Alvarez Mancilla</h1>
-          <h2>Para crear hay que creer</h2>
+      </nav>
+    </header>
+    <section>
+      <div class="hero">
+        <div class="hero-intro">
+          <h1>Brigette Alvarez Mancilla</h1>
+          <p>Todo lo que puedas imaginar...</p>
+          <p>es REAL.</p>
         </div>
-      <div class="about">
-        <div>
-          <h3>About</h3>
-        </div>
-        <img src="images/profile.png" alt="profile" />
-        <p>
-          Hola ... Yo soy Bibi y y esta es mi primera página personal, aqui les contaré un poco más sobre mí y las cosas que me agradan ~~~> Bienvenidos...
-        </p>
+        <video class="video-test" src="images/keyboarding.mp4" controls autoplay loop>Tu navegador no tiene soporte para reproducir videos</video>
       </div>
-      <div class="favorites">
-        <div>
-          <h3>Favorites</h3>
-        </div>
-        <p></p>
-          <img src="images/anime.png" alt="anime" /> <a href="#"></a>
-          <img src="images/libro.jpg" alt="libro" /> <a href="#"></a>
-          <img src="images/pelis.jpg" alt="pelis" /> <a href="#"></a>
-      </div>
-      <div class="contact">
-        <div>
-          <h3>Contact</h3>
-        </div>
-        <div class="iconos">
-          <a href=""><img src="images/twitter.png" alt="twitter" /></a>
-          <a href=""><img src="images/facebook.png" alt="facebook" /></a>
-          <a href=""><img src="images/linkedin.jpg" alt="linkedin" /></a>
-          <a href=""><img src="images/github.png" alt="github" /></a>
-        </div>
-      </div>
-    </div>
-    </div>
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-    <script>
-      $(document).ready(init);
-      function init()
-      {
-        //inicio de aplicacion
-        $(".main-nav li a").css('color','#ff0000');
-        $(".main-nav li a").click(selectMenu);
-      }
-      function selectMenu()
-      {
-        $("main-nav a").removeClass('active');
-        $(this).addClass('active');
-        TweenMax.to(selector,tiempo,propiedades,aceleracion);
-        TweenMax .to(".main-nav li a",1,{scale:1,rotation:0,ease:Elastic.easeOut});
-        TweenMax .to(this,2,{scale:1.5,rotation:45,ease:Back.easeOut});
+    </section>
+    <section>
+      <div id="about" class=" text-center pd40">
+        <div class="container">
+          <h1 class="text-bold"><i class="fa fa-star"></i>  ACERCA DE MÍ</h1>
+          <div class="col-md-4">
+            <img class="img-responsive" src="images/profile.png" alt="">
+          </div>
+          <div class="col-md-8">
+            Holaaaa.....
+            <p>Mi nombre es Brigette , tengo 20 años y soy Peruana. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum impedit rerum quo esse dolorum quidem, soluta, repudiandae? Ratione, quam voluptas illo debitis sed mollitia. Aspernatur iusto quam, sunt necessitatibus? Hic. </p>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <img class="img-responsive" src="images/bebe.jpg" alt="">
+            </div>
+            <div class="col-md-3">
+              <img src="" alt="">
+            </div>
 
-      }
-    </script>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="skills" class="pd40">
+        <div class="container">
+          <h1 class="text-bold text-center"><i class="fa fa-star"></i>  SKILLS</h1>
+          <div class="row">
+            <div class="col-md-3"><img class="skill-icon"src="images/skill-icons/html5.jpg" alt=""><span>HTML5</span></div>
+            <div class="col-md-6">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-value="100" style="width:90%"></div>
+              </div>
+            </div>
+            <div class="col-md-3 text-red">Pro Level</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"><img class="skill-icon"src="images/skill-icons/css3.jpg" alt=""><span>CSS3</span></div>
+            <div class="col-md-6">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-value="100" style="width:90%"></div>
+              </div>
+            </div>
+            <div class="col-md-3 text-red">Pro Level</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"><img class="skill-icon"src="images/skill-icons/jquery.jpg" alt=""><span>JQUERY</span></div>
+            <div class="col-md-6">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-value="100" style="width:70%"></div>
+              </div>
+            </div>
+            <div class="col-md-3 text-green">Good Level</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"><img class="skill-icon"src="images/skill-icons/uiux.jpg" alt=""><span>UIUX</span></div>
+            <div class="col-md-6">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-value="100" style="width:80%"></div>
+              </div>
+            </div>
+            <div class="col-md-3 text-green">Good Level</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"><img class="skill-icon"src="images/skill-icons/php.jpg" alt=""><span>PHP</span></div>
+            <div class="col-md-6">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-value="100" style="width:10%"></div>
+              </div>
+            </div>
+            <div class="col-md-3 text-blue">Basic Level</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"><img class="skill-icon"src="images/skill-icons/psd.jpg" alt=""><span>Photoshop</span></div>
+            <div class="col-md-6">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-value="100" style="width:10%"></div>
+              </div>
+            </div>
+            <div class="col-md-3 text-blue">Basic Level</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"><img class="skill-icon"src="images/skill-icons/creativity.jpg" alt=""><span>Creativity</span></div>
+            <div class="col-md-6">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-value="100" style="width:90%"></div>
+              </div>
+            </div>
+            <div class="col-md-3 text-red">Pro Level</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"><img class="skill-icon"src="images/skill-icons/responsive.jpg" alt=""><span>Responsive Design</span></div>
+            <div class="col-md-6">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-value="100" style="width:90%"></div>
+              </div>
+            </div>
+            <div class="col-md-3 text-red">Pro Level</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="portafolio" class=" text-center pd40">
+        <div class="container">
+          <h1 class="text-bold"><i class="fa fa-star"></i>  PORTAFOLIO</h1>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="contact" class=" text-center pd40">
+        <div class="container">
+          <h1 class="text-bold"><i class="fa fa-star"></i>  CONTÁCTAME</h1>
+          <form class="form-horizontal style-form">
+              <div class="row form-group">
+                  <div class="col-md-8 col-md-offset-2">
+                      <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                  </div>
+              </div>
+              <div class="row form-group">
+                  <div class="col-md-8 col-md-offset-2">
+                      <textarea class="form-control" placeholder="Message" name="" id="" cols="30" rows="10" required></textarea>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-md-5">
+                  <button type="submit" class="btn btn-default bg-orange">Enviar</button>
+                </div>
+              </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div id="footer" class="footer text-center">
+        <div class="container">
+          <div class="row ">
+            <div class="col-md-8">
+              <img class="img-responsive" src="images/contactme.jpg" alt="">
+            </div>
+            <div class="col-md-4">
+              <div class="redes">
+                <div><i class="fa fa-facebook"></i></div>
+                <div><i class="fa fa-google-plus"></i></div>
+                <div><i class="fa fa-twitter"></i></div>
+                <div><i class="fa fa-linkedin"></i></div>
+                <div><i class="fa fa-tachometer"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/freelancer.js"></script>
   </body>
 </html>
