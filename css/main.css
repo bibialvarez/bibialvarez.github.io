@@ -20,11 +20,11 @@ a{
 .bg-orange,.top{
   background: rgba(230,126,34,0.9);
 }
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus {
-  color: #000 !important;
-  background-color: #e74c3c;
+.navbar-inverse .navbar-nav a:hover,
+.navbar-inverse .navbar-nav a:focus {
+  background-color: #ffb40a !important;
+  border-radius: 5px !important;
+  color: #FFF !important;
 }
 .navbar-inverse .navbar-nav > li > a {
   padding: 10px 15px;
@@ -33,15 +33,16 @@ a{
   margin-top: 10px;
 }
 .btn-default:hover,.redes i:hover{
-  background:#e74c3c;
-  border-radius: 50%;
-
+  background:rgba(230,126,34,0.9);
+}
+.bg-yellow{
+  background:#ffb40a; 
 }
 .navbar-inverse .navbar-toggle{
   border-color: white;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
-  background: #e74c3c;
+  background:#ffb40a;
 }
 .text-white{
   color: white;
@@ -76,9 +77,6 @@ a{
 #portafolio img{
   max-width: 100%;
 }
-#contacto img{
-  vertical-align: middle;
-}
 .abc-small{
   font-size: 10px;
   background: #233140;
@@ -86,6 +84,21 @@ a{
 .redes i{
   font-size: 30px;
   padding: 15px;
+}
+.img-lider{
+  background: url("../images/lider.jpg");
+  background-size: cover;
+  height: 200px;
+}
+.img-bebe{
+  background: url("../images/bebe.jpg");
+  background-size: cover;
+  height: 200px;
+}
+.img-nieve{
+  background: url("../images/nieve.jpg");
+  background-size: cover;
+  height: 200px;
 }
 .pd10{
   padding: 10px;
@@ -128,12 +141,19 @@ a{
 }
 .footer-down{
   height: 300px;
-  z-index: -1;
+  z-index: 2;
+  background: #000 !important;
+  position: absolute;
+}
+.footer.down img
+{
+  opacity: .3 !important;
 }
 .footer-up{
   z-index: 1;
   position: relative;
-  background: rgba(0,0,0,0.6);
+  background: url(../images/contactame.jpg) no-repeat;
+  background-size: cover;
   height: 500px;
 }
 /*    <!--$(document).ready(init);
