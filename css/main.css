@@ -82,6 +82,10 @@ a{
   font-size: 30px;
   padding: 15px;
 }
+.redes{
+  margin: 0 auto;
+  display: inline-block;
+}
 .img-lider{
   background: url("../images/lider.jpg");
   background-size: cover;
@@ -135,6 +139,9 @@ a{
 .text-blue{
   color: rgba(52,152,219,0.9);
   text-align: center;
+}
+.fl{
+  float: left;
 }
 .footer-down{
   height: 300px;
