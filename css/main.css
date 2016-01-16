@@ -68,7 +68,7 @@ a{
   margin-top: -90px;
   top: 50%;
 }
-#about .img-responsive{
+#about .img-responsive ,.mg0{
   margin: 0 auto;
 }
 #portafolio img{
@@ -160,21 +160,3 @@ a{
   background-size: cover;
   height: 500px;
 }
-/*    <!--$(document).ready(init);
-      function init()
-      {
-        //inicio de aplicacion
-        $(".main-nav li a").css('color','#ff0000');
-        $(".main-nav li a").click(selectMenu);
-      }
-      function selectMenu()
-      {
-        $("main-nav a").removeClass('active');
-        $(this).addClass('active');
-        TweenMax.to(selector,tiempo,propiedades,aceleracion);
-        TweenMax .to(".main-nav li a",1,{scale:1,rotation:0,ease:Elastic.easeOut});
-        TweenMax .to(this,2,{scale:1.5,rotation:45,ease:Back.easeOut});
-
-      }
-       <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>-->*/
