@@ -241,12 +241,35 @@
             </div>
             <br>
             <br>
+            <div
+              class="fb-like"
+              data-share="true"
+              data-width="450"
+              data-show-faces="true">
+            </div>
             <h5>bibi.alvarez.mancilla@gmail.com</h5>
             <h5>¦~ß®îÐ¥£tT~¦</h5>
           </div>
         </div>
       </div>
     </footer>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '630441820426859',
+          xfbml      : true,
+          version    : 'v2.5'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "https://connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/freelancer.js"></script>
