@@ -2,10 +2,10 @@ html,body{
   margin: 0;
   padding: 0;
   font-size: 15px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Averia Sans Libre', cursive;
 }
 h1,h2,h3,h4{
-  font-family: 'Chewy', cursive;
+  font-family: 'Emblema One', cursive;
 }
 li{
   list-style-type:none;
@@ -14,13 +14,21 @@ a{
   text-decoration: none;
   color: white;
 }
+a:hover{
+color:white;
+}
 .bg-orange,.top{
   background: rgba(230,126,34,0.9);
 }
 .navbar-inverse .navbar-nav a:hover,
-.navbar-inverse .navbar-nav a:focus {
+.navbar-inverse .navbar-nav a:focus
+{
   background-color: #ffb40a !important;
   border-radius: 5px !important;
+  color: #FFF !important;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus{
   color: #FFF !important;
 }
 .navbar-inverse .navbar-nav > li > a {
@@ -91,17 +99,17 @@ a{
   display: inline-block;
 }
 .img-lider{
-  background: url("../images/lider.jpg");
+  background: url("../images/mujer-lider.jpg")center center;
   background-size: cover;
   height: 200px;
 }
 .img-bebe{
-  background: url("../images/bebe.jpg");
+  background: url("../images/bebe.jpg")center center;
   background-size: cover;
   height: 200px;
 }
 .img-nieve{
-  background: url("../images/nieve.jpg");
+  background: url("../images/nieve.jpg")center center;
   background-size: cover;
   height: 200px;
 }
