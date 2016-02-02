@@ -99,7 +99,9 @@ color:white;
   width: 100%;
   text-align: center;
   margin-top: -90px;
+	padding: 20px 0;
   top: 50%;
+	background: rgba(0,0,0,0.5);
 }
 #skills{
   height: 600px;
