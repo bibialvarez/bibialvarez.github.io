@@ -81,10 +81,14 @@ color:white;
   border-radius: 20%;
   width: 300px;
   margin: 0 auto;
+}
+#portafolio{
+  background: url("../images/textura2.jpg");
+  
 
 }
 .hero{
-  background: url("../images/contacto.jpg")center center;
+  background: url("../images/escribir.png")center center;
   background-size: cover;
   position: relative;
   height: 690px;
@@ -127,10 +131,7 @@ color:white;
   background-size: cover;
   height: 200px;
 }
-.pd10{
-  padding: 10px;
-  border: 3px dashed rgb(82, 120, 157);
-}
+
 .pd20{
   padding: 20px;
 }
@@ -173,8 +174,8 @@ color:white;
 .footer-up{
   z-index: 1;
   position: relative;
-  background: url(../images/conta.jpg)center center;
-  background-size: cover;
+  /*background: url(../images/conta.jpg)center center;
+  background-size: cover;*/
   height: 500px;
 }
 /*********MEDIA QUERIES*********/
