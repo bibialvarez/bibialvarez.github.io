@@ -1,3 +1,6 @@
+/*{
+  outline: 1px solid red;
+}*/
 html,body{
   margin: 0;
   padding: 0;
@@ -20,13 +23,13 @@ a{
 a:hover{
 color:white;
 }
-.bg-orange,.top{
-  background: rgba(230,126,34,0.9);
+.top{
+  background:rgb(82, 120, 157);
 }
 .navbar-inverse .navbar-nav a:hover,
 .navbar-inverse .navbar-nav a:focus
 {
-  background-color: #ffb40a !important;
+  background-color: #062f48 !important;
   border-radius: 5px !important;
   color: #FFF !important;
 }
@@ -41,16 +44,22 @@ color:white;
   margin-top: 10px;
 }
 .btn-default:hover,.redes i:hover{
-  background:rgba(230,126,34,0.9);
+  background:#062f48;
 }
-.bg-yellow{
-  background:#ffb40a; 
+.bg-blue{
+  background:rgb(82, 120, 157); 
+}
+#portafolio .bg-blue{
+  background-color: #062f48;
+}
+#portafolio .btn-default:hover{
+ background:rgb(82, 120, 157);   
 }
 .navbar-inverse .navbar-toggle{
   border-color: white;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
-  background:#ffb40a;
+  background:#062f48;
 }
 .text-white{
   color: white;
@@ -65,10 +74,18 @@ color:white;
 .bg-white{
   background: white;
 }
-.video-test{
-  width:100%; 
+.mgtop13{
+  margin-top: 13px;
 } 
+.br20{
+  border-radius: 20%;
+  width: 300px;
+  margin: 0 auto;
+
+}
 .hero{
+  background: url("../images/contacto.jpg")center center;
+  background-size: cover;
   position: relative;
   height: 690px;
   overflow: hidden;
@@ -80,15 +97,8 @@ color:white;
   margin-top: -90px;
   top: 50%;
 }
-#about .img-responsive{
-  margin: 0 auto;
-}
-#portafolio img{
-  max-width: 100%;
-}
-.fb-bottom{
-  float: left;
-  padding: 30px 0 0;
+#skills{
+  height: 600px;
 }
 .abc-small{
   font-size: 10px;
@@ -119,7 +129,7 @@ color:white;
 }
 .pd10{
   padding: 10px;
-  border: 3px dashed rgba(230,126,34,0.9);
+  border: 3px dashed rgb(82, 120, 157);
 }
 .pd20{
   padding: 20px;
@@ -130,10 +140,6 @@ color:white;
 .radius{
   border-radius: 50%;
   margin: 0 auto;
-}
-.radius20{
-  width: 100%;
-  border-radius: 20%;
 }
 .progress{
   height: 20px;
@@ -163,21 +169,17 @@ color:white;
   z-index: 2;
   background: #000 !important;
   position: absolute;
-}
-.footer.down img
-{
-  opacity: .3 !important;
-}
+} 
 .footer-up{
   z-index: 1;
   position: relative;
-  background: url(../images/contactame.jpg) no-repeat;
+  background: url(../images/conta.jpg)center center;
   background-size: cover;
   height: 500px;
 }
 /*********MEDIA QUERIES*********/
 @media (max-width: 768px){
-  h1{
+  h1,h2{
     font-size:20px !important;
   }
 }
