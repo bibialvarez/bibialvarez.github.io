@@ -52,8 +52,19 @@ color:white;
 #portafolio .bg-blue{
   background-color: #062f48;
 }
+#portafolio .btn-default{
+	border:none;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-ms-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+}
 #portafolio .btn-default:hover{
- background:rgb(82, 120, 157);   
+ background:rgb(82, 120, 157);
+}
+#portafolio .btn-default:hover a{
+	text-decoration: none;
 }
 .navbar-inverse .navbar-toggle{
   border-color: white;
@@ -72,7 +83,11 @@ color:white;
   font-size: 40px;
 }
 .bg-white{
-  background: white;
+  background: #d6e0ec;
+	padding-bottom: 15px;
+	-webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
 }
 .mgtop13{
   margin-top: 13px;
