@@ -4,8 +4,11 @@ html,body{
   font-size: 15px;
   font-family: 'Averia Sans Libre', cursive;
 }
-h1,h2,h3,h4{
+h1{
   font-family: 'Emblema One', cursive;
+}
+h2,h3,h4{
+ font-family: 'Averia Sans Libre', cursive; 
 }
 li{
   list-style-type:none;
@@ -131,7 +134,6 @@ color:white;
 .radius20{
   width: 100%;
   border-radius: 20%;
-  border: 2px solid rgba(230,126,34,0.9);
 }
 .progress{
   height: 20px;

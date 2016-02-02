@@ -15,15 +15,6 @@
     <link href='https://fonts.googleapis.com/css?family=Averia+Sans+Libre|Emblema+One' rel='stylesheet' type='text/css'>  
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title">
     <title>Bibi Alvarez</title>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-71320401-1', 'auto');
-        ga('send', 'pageview');
-    </script>
   </head>
   <body>
     <header>
@@ -55,7 +46,7 @@
           <p>Todo lo que puedas imaginar...
           <br>...es REAL</p>
         </div>
-        <video class="video-test" src="images/keyboarding.mp4" autoplay loop>Tu navegador no tiene soporte para reproducir videos</video>
+        <video class="video-test" src="images/keyboarding.mp4" autoplay loop controls>Tu navegador no tiene soporte para reproducir videos</video>
       </div>
     </section>
     <section>
@@ -64,11 +55,10 @@
           <h1 class="text-bold text-center">ACERCA DE MÍ</h1>
           <div class="row">
             <div class="col-md-4">
-              <img class="img-responsive" src="images/perfil.png" alt="">
+              <img class="img-responsive" src="images/perfil.jpg" alt="">
             </div>
-            <div class="col-md-8">
-              <p>Hola</p>
-              <p>Mi nombre es Brigette , tengo 20 años y soy una Web Developer. Actualmente estudio en Laboratoria Desarrollo Web del tipo Front End. Me gustan muchas cosas pero lo mejor siempre es la satisfaccion que se siente al lograr algo que anhelas. </p>
+            <div class="col-md-8 text-center">
+              <p>Hola mi nombre es Brigette, tengo 20 años y soy una Web Developer. Actualmente estudio en Laboratoria Desarrollo Web del tipo Front End. Me gustan muchas cosas pero lo mejor siempre es la satisfaccion que se siente al lograr algo que anhelas. </p>
               <div class="row">
                   <div class="pd20"><p><strong>MIS INTERESES</strong></p></div>
                   <div class="col-sm-4">
@@ -216,15 +206,6 @@
                 </div>
               </div>
             </div>
-            <div class="fb-bottom">
-              <div
-                class="fb-like"
-                data-share="true"
-                data-width="450"
-                data-show-faces="true">
-              </div>
-            </div>
-
         </div>  
       </div>
     </section>
@@ -252,23 +233,7 @@
         </div>
       </div>
     </footer>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '630441820426859',
-          xfbml      : true,
-          version    : 'v2.5'
-        });
-      };
 
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "https://connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-    </script>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/freelancer.js"></script>
